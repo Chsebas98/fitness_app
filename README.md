@@ -1,16 +1,20 @@
-# fitness_app
+## _APLICACIÓN FITNESS_
 
-A new Flutter project.
+Este es un proyecto de flutter para la materia de Construcción y Evolución de Software que tiene como fin crear una aplicación de rutinas en donde se muestre como hacer cada ejercicio que presenta la app.
 
-## Getting Started
+## Empecemos!
 
-This project is a starting point for a Flutter application.
+Asegurate de tener todos los complementos de Flutter actualizados y descargados, en caso de que no lo tengas lo puedes revisar aquí [Complementos de Flutter](https://docs.flutter.dev/)
 
-A few resources to get you started if this is your first Flutter project:
+## Clona la aplicación
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para clonar la aplicación debes realizar los siguientes pasos:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Abrir una ventana de visual studio code
+- Abrir una nueva terminal y ejecutar el siguiente código
+
+```
+git clone https://github.com/Chsebas98/fitness_app.git
+```
+
+Y listo la aplciación se clonará en tu computador. Debes tener [Git](https://git-scm.com) instalado

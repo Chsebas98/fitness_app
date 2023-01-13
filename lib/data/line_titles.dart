@@ -30,7 +30,7 @@ class LineTitles {
             }
             return '';
           },
-          margin: 8,
+          margin: 2,
         ),
         leftTitles: MyLeftTitles(showTitles: false),
         rightTitles: MyRightTitles(

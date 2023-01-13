@@ -11,26 +11,26 @@ class LineTitles {
 
     return FlTitlesData(
         show: true,
-        bottomTitles: MyBottomTitles(
-          showTitles: true,
-          reservedSize: 30,
-          getTextStyles: (_) => style,
-          getTitles: (value) {
-            value = value % 14;
-
-            switch (value.toInt()) {
-              case 1:
-                return 'MON';
-              case 4:
-                return 'THU';
-              case 7:
-                return 'SAT';
-              case 10:
-                return 'TUE';
-            }
-            return '';
-          },
-          margin: 2,
+        bottomTitles: AxisTitles(
+          sideTitles: SideTitles(
+            showTitles: true,
+            reservedSize: 30,
+            getTitlesWidget: (value, meta) {
+              value = value % 14;
+              switch (value.toInt()) {
+                case 1:
+                  return const Text("LUN");
+                case 4:
+                  return const Text("MAR");
+                case 7:
+                  return const Text("MIE");
+                case 10:
+                  return const Text("JUE");
+                default:
+                  return const Text("");
+              }
+            },
+          ),
         ),
         leftTitles: MyLeftTitles(showTitles: false),
         rightTitles: MyRightTitles(

@@ -39,6 +39,7 @@ class LineTitles {
           ),
         ),
         leftTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
+        topTitles: AxisTitles(sideTitles: SideTitles(showTitles: false)),
         rightTitles: AxisTitles(
             drawBehindEverything: true,
             sideTitles: SideTitles(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/line_chart_widget.dart';
+import '../widgets/widgets.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -10,7 +10,19 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: CustomScrollView(
         physics: const BouncingScrollPhysics(),
-        slivers: [buildAppBar(context)],
+        slivers: <Widget>[
+          buildAppBar(context),
+          SliverFixedExtentList(
+            itemExtent: 50.0,
+            delegate: SliverChildBuilderDelegate(
+              (BuildContext context, int index) {
+                return Container(
+                    alignment: Alignment.center, child: ListaRutinas());
+              },
+              childCount: 10,
+            ),
+          )
+        ],
       ),
     );
   }

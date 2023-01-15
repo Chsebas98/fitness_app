@@ -1,40 +1,32 @@
 import 'package:flutter/material.dart';
 
-import '../widgets/widgets.dart';
+import '../widget/widget.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: CustomScrollView(
-        physics: const BouncingScrollPhysics(),
-        slivers: <Widget>[
-          buildAppBar(context),
-          SliverFixedExtentList(
-            itemExtent: 50.0,
-            delegate: SliverChildBuilderDelegate(
-              (BuildContext context, int index) {
-                return Container(
-                    alignment: Alignment.center, child: ListaRutinas());
-              },
-              childCount: 10,
-            ),
-          )
-        ],
-      ),
-    );
-  }
+  Widget build(BuildContext context) => Scaffold(
+        body: CustomScrollView(
+          physics: const BouncingScrollPhysics(),
+          slivers: [
+            buildAppBar(context),
+            const ExercisesWidget(),
+          ],
+        ),
+      );
 
   SliverAppBar buildAppBar(BuildContext context) => SliverAppBar(
         flexibleSpace: const FlexibleSpaceBar(background: LineChartWidget()),
-        stretch: true,
         expandedHeight: MediaQuery.of(context).size.height * 0.5,
-        pinned: true,
+        stretch: true,
+        title: const Text('Statistics'),
         centerTitle: true,
-        title: const Text("Estadisticas"),
+        pinned: true,
         leading: const Icon(Icons.menu),
-        actions: const [Icon(Icons.person, size: 28), SizedBox(width: 12)],
+        actions: const [
+          Icon(Icons.person, size: 28),
+          SizedBox(width: 12),
+        ],
       );
 }

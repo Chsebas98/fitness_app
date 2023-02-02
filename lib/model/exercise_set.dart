@@ -7,13 +7,13 @@ enum ExerciseType { low, mid, hard }
 String getExerciseName(ExerciseType type) {
   switch (type) {
     case ExerciseType.hard:
-      return 'Hard';
+      return 'Dificil';
     case ExerciseType.mid:
-      return 'Medium';
+      return 'Medio';
     case ExerciseType.low:
-      return 'Easy';
+      return 'Fácil';
     default:
-      return 'All';
+      return 'Todos';
   }
 }
 

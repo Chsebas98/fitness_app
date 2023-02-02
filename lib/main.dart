@@ -1,5 +1,5 @@
-import 'package:fitness_app/screens/home_page.dart';
 import 'package:flutter/material.dart';
+import 'screens/screens.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -7,7 +7,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  static const String title = 'Fitness App UI';
+  static const String title = 'Fitness App - GYMO';
 
   const MyApp({super.key});
 
@@ -18,6 +18,6 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Colors.indigo,
         ),
-        home: const HomePage(),
+        home: const HomeScreen(),
       );
 }

@@ -22,9 +22,11 @@ class _ExercisesWidgetState extends State<ExercisesWidget> {
           delegate: SliverChildListDelegate(
             [
               const SizedBox(height: 8),
-              const Text(
-                'Exercise',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+              const Center(
+                child: Text(
+                  'EJERCICIOS',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                ),
               ),
               const SizedBox(height: 8),
               buildDifficultyLevel(),

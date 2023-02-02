@@ -1,14 +1,17 @@
 import 'package:flutter/material.dart';
 
-import '../widget/exercises_widget.dart';
+import '../widget/widget.dart';
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({Key? key}) : super(key: key);
+  final GlobalKey<ScaffoldState> _scaffoldKey = GlobalKey();
 
+  HomeScreen({super.key});
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: CustomScrollView(
+    return Scaffold(
+      drawer: menuLateral(context),
+      key: _scaffoldKey,
+      body: const CustomScrollView(
         physics: BouncingScrollPhysics(),
         slivers: [
           ExercisesWidget(),

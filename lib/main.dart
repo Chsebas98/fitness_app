@@ -18,6 +18,10 @@ class MyApp extends StatelessWidget {
         theme: ThemeData(
           primaryColor: Colors.indigo,
         ),
-        home: const HomeScreen(),
+        routes: <String, WidgetBuilder>{
+          '/': (BuildContext context) => HomeScreen(),
+          //'categoria': (BuildContext context) => const CategoriaPage(),
+          //'detalle': (BuildContext context) => const DetallePage(),
+        },
       );
 }

@@ -23,7 +23,7 @@ class _ExercisesWidgetState extends State<ExercisesWidget> {
               const SizedBox(height: 8),
               const Center(
                 child: Text(
-                  'Exercise',
+                  'Ejercicios',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                 ),
               ),
@@ -37,6 +37,9 @@ class _ExercisesWidgetState extends State<ExercisesWidget> {
       );
 
   Widget buildWorkouts() => GestureDetector(
+        onTap: () {
+          Navigator.pushNamed(context, "rutinas");
+        },
         onHorizontalDragEnd: swipeFunction,
         child: Column(
           children: exerciseSets

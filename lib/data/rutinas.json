@@ -1,0 +1,128 @@
+{
+	"Bebidas": [
+		{
+			"titulo": "COCKTAIL DE KOMBUCHA Y FRUTA (KOMTAIL)",
+			"foto": "https://recetasveganas.net/wp-content/uploads/2021/02/coctail-casero-saludable-kombucha-vegano-recetas-bebidas-fiestas.jpg",
+			"descripcion": "Últimamente me he aficionado bastante a la Kombucha, aunque reconozco que ha sido después de estar un tiempo probando marcas que, sinceramente, no me gustaron nada. El caso es que se habla mucho de los beneficios de la Kombucha a nivel digestivo, así que decidí volver a probarla y la verdad es que llevo dos o tres meses bebiéndola semanalmente, hasta anteayer que se me ocurrió ¿por qué no le damos una vuelta a esta bebida y creamos algo un poco más divertido? Además de que tengo la sección de bebidas bastante abandonada… Así que os traigo una receta rápida y fácil para hacer un Cocktail de Kombucha.",
+			"categoria": "Bebidas",
+			"duracion": "15min",
+			"dificultad": "Fácil",
+			"preparacion": "Comenzaremos cortando la piña por la mitad, cortamos con un cuchillo el margen interior de la piña dejando 1 cm de margen. Después, cortamos en cubos el interior y lo retiramos con una cuchara. Llenamos con la Kombucha y colocamos los arándanos congelados, los cubos de piña que hemos retirado del interior, unos cubos de hielo pequeños y una rodaja de naranja.Por último, añadimos una rodajita de mango y para decorar: chía blanca (opcional), coco rallado y una pajita reutilizable, yo usé una de bambú.",
+			"ingredientes": [
+				{
+					"ingrediente": "1/2 piña",
+					"fotoIngrediente": "https://www.maxionline.ec/wp-content/uploads/2020/08/pinia-el-sabor-de-la-frecura.jpg"
+				},
+				{
+					"ingrediente": "1 kombucha ",
+					"fotoIngrediente": "data:image/jpeg;base64,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"
+				},
+				{
+					"ingrediente": "1 puñado de arándanos congelados",
+					"fotoIngrediente": "https://cdn.blueberriesconsulting.com/2015/07/reportaje_27072015_2.jpg"
+				},
+				{
+					"ingrediente": "Hielo",
+					"fotoIngrediente": "https://cdn.pixabay.com/photo/2021/04/28/23/58/ice-6215207__480.jpg"
+				},
+				{
+					"ingrediente": "1 trocito de mango",
+					"fotoIngrediente": "https://cloudfront-us-east-1.images.arcpublishing.com/eluniverso/Q2OAELRV4FAPTGDUIDGPZZ253Q.jpg"
+				}
+			]
+		},
+		{
+			"titulo": "MILKSHAKE VEGANO DE CHOCOLATE Y CEREZAS",
+			"foto": "https://recetasveganas.net/wp-content/uploads/2017/07/milkshake-chocolate-cereza-vegano-1.jpg",
+			"descripcion": "Os prometo que la semana que viene os traigo una receta salada. ¡Buenos días a todos! No sé qué me pasa estas semanas pero acabo de darme cuenta de que últimamente sólo he subido recetas dulces, pero ya tengo pensada la receta de el próximo sábado y os va a encantar. Y sí. Es salada.",
+			"categoria": "Bebidas",
+			"duracion": "135min",
+			"dificultad": "Media",
+			"preparacion": "El primer paso será congelar las 4 bananas y la 1/2 taza de cerezas, en trozos, como mínimo durante 2 horas. Mientras tanto, vamos a fundir el chocolate para crear el fondo y los laterales con chocolate helado. Para ello,cogemos las 4 onzas de chocolate y, junto con un chorrito muy pequeño de leche vegetal, lo metemos en una olla y lo mantenemos a fuego bajo, removiendo constantemente, hasta que se funda por completo.Cuando ya esté fundido, apagamos el fuego y con la ayuda de una cuchara impregnamos todo el fondo y los laterales más bajos de nuestro vaso con el chocolate. Además, de manera opcional, podemos dejar escurrir un poco de chocolate en la boca del vaso, tal y como os muestro en la foto de arriba. Luego, lo guardamos en la nevera. Cuando ya tengamos las frutas congeladas, repartimos las Bananas en dos partes iguales. Seguidamente, cogemos una de las mitades y la volcamos sobre un recipiente para triturar. A este recipiente le añadimos las 3 cucharadas soperas de cacao, una pizca de canela (opcional), y 1/3 de taza de leche vegetal.Con la batidora de mano, trituramos todo hasta que quede lo más homogéneo posible. Luego, lo volcamos en el vaso y lo reservamos nuevamente en la nevera.Ahora vamos a preparar la parte de cereza siguiendo el mismo procedimiento: volcamos el resto de la banana en un recipiente para triturar y lo mezclamos con las cerezas y 1/3 de taza de leche vegetal. Si fuera necesario, añadimos algún edulcorante. Tituramos todo hasta que quede lo más homogéneo posible. Retiramos nuestro milkshake vegano de chocolate de la nevera y volcamos la capa de cereza encima. Para terminar, por encima, añadimos los toppings que más nos gusten: virutas de chocolate, trozos de almendras... ¡Y listo! Es importante servir el Milkshake bien frío.",
+			"ingredientes": [
+				{
+					"ingrediente": "4 Bananas maduras (cuanto más maduras están, más dulces son)",
+					"fotoIngrediente": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bananas.jpg"
+				},
+				{
+					"ingrediente": "3 cucharadas soperas de Cacao (os recomiendo que sea un cacao dulce, uno que sea soluble, de lo contrario puede amargar)",
+					"fotoIngrediente": "https://grandsur.com/wp-content/uploads/2021/02/GrandSur-Our-Products-ASSS.jpg"
+				},
+				{
+					"ingrediente": "1/2 taza de Cerezas",
+					"fotoIngrediente": "https://www.cuerpomente.com/medio/2021/02/11/propiedades-y-beneficos-de-las-cerezas_795e4ea9.jpg"
+				},
+				{
+					"ingrediente": "4 onzas de Chocolate (sin leche)",
+					"fotoIngrediente": "https://s1.eestatic.com/2019/09/23/ciencia/nutricion/cacao-chocolate-obesidad_431467004_134484315_1706x960.jpg"
+				},
+				{
+					"ingrediente": "1 taza de Leche Vegetal (Yo usé de Almendras)",
+					"fotoIngrediente": "https://m.media-amazon.com/images/I/61+raAHwzxL._SX425_.jpg"
+				}
+			]
+		},
+		{
+			"titulo": "BATIDO DE ESPINACAS Y ZANAHORIA (UNA PIEL SALUDABLE)",
+			"foto": "https://recetasveganas.net/wp-content/uploads/2016/05/batido_detox_verde_recetavegana2.jpg",
+			"descripcion": "¡Muy buenos días a tod@s otro sábado más!.Este sábado estoy muy contenta de traeros un batido súper nutritivo y PERFECTO PARA EL VERANO :-) Creo que hacía más de un año que no subía un batido a la página, y ya tocaba. Ahora que llega el verano a España a mi me apetecen cosas fresquitas, saludables, naturales y ligeras, aunque muy nutritivas.",
+			"categoria": "Bebidas",
+			"duracion": "15min",
+			"dificultad": "Fácil",
+			"preparacion": "El procedimiento es tan simple como lavar bien los vegetales y batirlos. Si añadimos el topping, simplemente lo espolvoreamos por encima. ¡Y ya está! Si esperabais más pasos, siento decepcionaros. Siguiendo los consejos de Jolly Yoli, os recomiendo que peléis la manzana si esta no es orgánica, para evitar pesticidas. Yo batí lo verde por un lado y las zanahorias por otro (una taza de leche vegetal para cada cosa), porque quería que los colores se mezclaran de diferente manera, ¡pero eso es simple decoración!",
+			"ingredientes": [
+				{
+					"ingrediente": "Un bol de espinacas",
+					"fotoIngrediente": "https://i.blogs.es/5ee30a/istock-522189977/1366_2000.jpg"
+				},
+				{
+					"ingrediente": "Dos tazas de leche vegetal (yo usé leche de avena sin,,azúcar)",
+					"fotoIngrediente": "https://sivarious.com/wp-content/uploads/2018/09/Leche-vegetal.jpg"
+				},
+				{
+					"ingrediente": "3/4 de bol de canónigos",
+					"fotoIngrediente": "https://www.hogarmania.com/archivos/201810/ensalada-canonigos-xl-668x400x80xX.jpg"
+				},
+				{
+					"ingrediente": "Tres zanahorias grandes",
+					"fotoIngrediente": "https://ejerciciosencasa.as.com/wp-content/uploads/2013/12/zanahorias_1.jpg"
+				},
+				{
+					"ingrediente": "Una o dos manzanas dulces (depende de lo dulce que lo quieras)",
+					"fotoIngrediente": "https://elegifruta.com.ar/onepage/wp-content/uploads/2017/07/manzana_roja.jpg"
+				}
+			]
+		},
+		{
+			"titulo": "BATIDO DE FRESAS Y YOGURT DE SOJA (VEGANO)",
+			"foto": "https://recetasveganas.net/wp-content/uploads/2013/05/juice-114628_640.jpg",
+			"descripcion": "¡Bienvenidos al verano y bienvenidos al calor! Pocas cosas me apetecen más cuando llega el calor la fruta en cantidades enormes, batidos fresquitos, yogures helados…  Por eso hoy os traigo una receta bastante recurrente para mi en estos días: un batido de fresas y yogurt de soja servido en frío ¡muy frío!",
+			"categoria": "Bebidas",
+			"duracion": "5min",
+			"dificultad": "Fácil",
+			"preparacion": "Lavamos y cortamos las frutas y las metemos en un recipiente para triturar, junto a la leche vegetal y al yogur. Lo trituramos hasta dejar una crema homogénea. Lo colocamos en un recipiente y ya lo podemos servir. ¡Disfrútalo fresquito!",
+			"ingredientes": [
+				{
+					"ingrediente": "1 puñado de Fresas",
+					"fotoIngrediente": "https://www.cuerpomente.com/medio/2021/02/11/propiedades-y-beneficios-de-la-fresa_8e0ffc75_1200x1200.jpg"
+				},
+				{
+					"ingrediente": "1/2 puñado de Fambuesas",
+					"fotoIngrediente": "https://d2ke0ff4uknkae.cloudfront.net/hortalizas/wp-content/uploads/2015/09/frambuesa-negra.jpg"
+				},
+				{
+					"ingrediente": "1 Melocotón bien maduro",
+					"fotoIngrediente": "https://frutasolivar.com/wp-content/uploads/2020/05/melocoton.jpg"
+				},
+				{
+					"ingrediente": "1 o 2 yogures vegetales (yo usé yogurt de soja)",
+					"fotoIngrediente": "https://hosteleriaecuador.com/wp-content/uploads/nutri-11-2022.jpg"
+				},
+				{
+					"ingrediente": "1 vaso de leche vegetal fría",
+					"fotoIngrediente": "https://amhigo.com/images/actualidades/noticias/Nutricion/Leches-vegetales.jpeg"
+				}
+			]
+		}
+	]
+}

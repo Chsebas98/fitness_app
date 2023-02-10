@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
         ),
         routes: <String, WidgetBuilder>{
           '/': (BuildContext context) => HomeScreen(),
-          //'categoria': (BuildContext context) => const CategoriaPage(),
-          //'detalle': (BuildContext context) => const DetallePage(),
+          'rutinas': (BuildContext context) => const RutinasScreen(),
+          'detalle': (BuildContext context) => const DetalleScreen(),
         },
       );
 }

@@ -16,8 +16,8 @@ Widget appBar(BuildContext context, GlobalKey<ScaffoldState> key) {
           padding: const EdgeInsets.all(15.0),
           child: IconButton(
               icon: const Icon(
-                Icons.search,
-                color: Color.fromRGBO(183, 195, 206, 1.0),
+                Icons.person_sharp,
+                color: Color.fromRGBO(154, 221, 44, 1),
                 size: 25.0,
               ),
               onPressed: () {

@@ -1,12 +1,18 @@
-import 'package:flutter/material.dart';
+import 'package:fitness_app/widget/widget.dart';
+
 import '../data/exercise_sets.dart';
 import '../model/exercise_set.dart';
-import 'exercise_set_widget.dart';
 
-class ExercisesWidget extends StatelessWidget {
-  final ExerciseType selectedType = ExerciseType.low;
-
+class ExercisesWidget extends StatefulWidget {
   const ExercisesWidget({super.key});
+
+  @override
+  // ignore: library_private_types_in_public_api
+  _ExercisesWidgetState createState() => _ExercisesWidgetState();
+}
+
+class _ExercisesWidgetState extends State<ExercisesWidget> {
+  ExerciseType selectedType = ExerciseType.low;
 
   @override
   Widget build(BuildContext context) => SliverPadding(
@@ -17,7 +23,7 @@ class ExercisesWidget extends StatelessWidget {
               const SizedBox(height: 8),
               const Center(
                 child: Text(
-                  'EJERCICIOS',
+                  'Exercise',
                   style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
                 ),
               ),
@@ -31,6 +37,7 @@ class ExercisesWidget extends StatelessWidget {
       );
 
   Widget buildWorkouts() => GestureDetector(
+        onHorizontalDragEnd: swipeFunction,
         child: Column(
           children: exerciseSets
               .where((element) => element.exerciseType == selectedType)
@@ -54,6 +61,7 @@ class ExercisesWidget extends StatelessWidget {
               child: Center(
                 child: GestureDetector(
                   behavior: HitTestBehavior.opaque,
+                  onTap: () => setState(() => selectedType = type),
                   child: Container(
                     padding: const EdgeInsets.symmetric(vertical: 8),
                     child: Text(
@@ -67,4 +75,21 @@ class ExercisesWidget extends StatelessWidget {
           },
         ).toList(),
       );
+
+  void swipeFunction(DragEndDetails dragEndDetails) {
+    final selectedIndex = ExerciseType.values.indexOf(selectedType);
+    final hasNext = selectedIndex < ExerciseType.values.length;
+    final hasPrevious = selectedIndex > 0;
+
+    setState(() {
+      if (dragEndDetails.primaryVelocity! < 0 && hasNext) {
+        final nextType = ExerciseType.values[selectedIndex + 1];
+        selectedType = nextType;
+      }
+      if (dragEndDetails.primaryVelocity! > 0 && hasPrevious) {
+        final previousType = ExerciseType.values[selectedIndex - 1];
+        selectedType = previousType;
+      }
+    });
+  }
 }

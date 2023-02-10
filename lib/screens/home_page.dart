@@ -15,28 +15,7 @@ class HomeScreen extends StatelessWidget {
         body: CustomScrollView(
           slivers: <Widget>[
             appBar(context, _scaffoldKey),
-            /*SliverList(
-                delegate: SliverChildListDelegate([
-              Column(
-                children: <Widget>[
-                  sliderPopulares(),
-                  titles('Categorías', titlesStyle),
-                  SliderCategorias(),
-                  titles('Recetas', titlesStyle),
-                  //Procesamos el future del provider
-                  FutureBuilder(
-                    future: recetasProvider.cargarRecetas(),
-                    initialData: const [],
-                    builder: (BuildContext context,
-                        AsyncSnapshot<List<dynamic>> snapshot) {
-                      return Column(
-                          children: recetasListado(context, snapshot.data!));
-                    },
-                  ),
-                  //recetasListado(context),
-                ],
-              )
-            ]))*/
+            const ExercisesWidget()
           ],
         ));
   }

@@ -21,6 +21,9 @@ dependencies:
 
   #video
   video_player: ^2.4.10
+
+  #font awesome
+  font_awesome_flutter: ^10.3.0
   
 dev_dependencies:
   flutter_test:
@@ -34,7 +37,7 @@ flutter:
 
 
   assets:
-    - assets
+    - assets/
   #   - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

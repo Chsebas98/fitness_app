@@ -1,8 +1,7 @@
-import 'package:flutter/material.dart';
+import 'package:fitness_app/widget/widget.dart';
 
 import '../data/exercise_sets.dart';
 import '../model/exercise_set.dart';
-import 'exercise_set_widget.dart';
 
 class ExercisesWidget extends StatefulWidget {
   const ExercisesWidget({super.key});
@@ -22,9 +21,11 @@ class _ExercisesWidgetState extends State<ExercisesWidget> {
           delegate: SliverChildListDelegate(
             [
               const SizedBox(height: 8),
-              const Text(
-                'Exercise',
-                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+              const Center(
+                child: Text(
+                  'Ejercicios',
+                  style: TextStyle(fontWeight: FontWeight.bold, fontSize: 24),
+                ),
               ),
               const SizedBox(height: 8),
               buildDifficultyLevel(),

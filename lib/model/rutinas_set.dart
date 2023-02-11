@@ -12,7 +12,7 @@ String getRutinaName(RutinaType type) {
     case RutinaType.dificil:
       return "Dificil";
     default:
-      return "All";
+      return "Todos";
   }
 }
 

@@ -26,6 +26,10 @@ class ExerciseSetWidget extends StatelessWidget {
             ],
           ),
         ),
+        onTap: () {
+          Navigator.pushNamed(context, "rutinas",
+              arguments: {'nombre': exerciseSet.name});
+        },
       );
 
   Widget buildText() {

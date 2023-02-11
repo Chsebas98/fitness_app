@@ -37,9 +37,6 @@ class _ExercisesWidgetState extends State<ExercisesWidget> {
       );
 
   Widget buildWorkouts() => GestureDetector(
-        onTap: () {
-          Navigator.pushNamed(context, "rutinas");
-        },
         onHorizontalDragEnd: swipeFunction,
         child: Column(
           children: exerciseSets

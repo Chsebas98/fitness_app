@@ -27,8 +27,10 @@ class ExerciseSetWidget extends StatelessWidget {
           ),
         ),
         onTap: () {
-          Navigator.pushNamed(context, "rutinas",
-              arguments: {'nombre': exerciseSet.name});
+          Navigator.pushNamed(context, "rutinas", arguments: {
+            'nombre': exerciseSet.name,
+            'img': exerciseSet.imageUrl
+          });
         },
       );
 

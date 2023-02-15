@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 Widget appBarDetalle(String foto) {
@@ -5,10 +7,10 @@ Widget appBarDetalle(String foto) {
     expandedHeight: 200.0,
     floating: false,
     flexibleSpace: FlexibleSpaceBar(
-        background: FadeInImage(
-            placeholder: NetworkImage(foto),
-            image: NetworkImage(foto),
-            fadeInDuration: const Duration(milliseconds: 150),
+        background: FadeInImage.assetNetwork(
+            placeholder: "assets/jar_loading.gif",
+            image: foto,
+            fadeInDuration: const Duration(seconds: 2),
             fit: BoxFit.cover)),
   );
 }

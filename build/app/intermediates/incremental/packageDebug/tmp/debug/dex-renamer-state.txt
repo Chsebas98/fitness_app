@@ -1,4 +1,4 @@
-#Mon Feb 13 11:10:43 COT 2023
+#Thu Feb 16 08:30:40 COT 2023
 base.0=C\:\\Users\\chseb\\OneDrive\\Documentos\\Flutter Projects\\fitness_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

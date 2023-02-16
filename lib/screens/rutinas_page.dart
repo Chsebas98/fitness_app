@@ -9,7 +9,7 @@ class RutinasScreen extends StatelessWidget {
         ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
     String nombre = rutinaName['nombre'];
     String image =
-        "https://hips.hearstapps.com/harpersbazaaruk.cdnds.net/16/47/1479804905-vicweb.jpg";
+        "https://cdn.shopify.com/s/files/1/2672/9750/articles/3_800x.jpg?v=1645428094";
 
     return Scaffold(
         backgroundColor: Colors.white,

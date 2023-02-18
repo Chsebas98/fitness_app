@@ -39,6 +39,7 @@ flutter:
   assets:
     - assets/
     - assets/jar_loading.gif
+    - data/rutinas.json
     
   #   - images/a_dot_ham.jpeg
 

@@ -1,8 +1,8 @@
 // ignore_for_file: file_names
 
-import 'dart:convert' show jsonDecode;
+import 'dart:convert';
 
-import 'package:flutter/services.dart';
+import 'package:flutter/services.dart' show rootBundle;
 
 class _RutinasProvider {
   List<dynamic> rutinas = [];
@@ -15,9 +15,10 @@ class _RutinasProvider {
     //MAPEO el JSON
     Map<String, dynamic> rutinaMap = jsonDecode(resp);
     // Añado al array según el nombre de cada Rutina
-    rutinas = rutinaMap[nombreRutina];
+    rutina = rutinaMap[nombreRutina];
+
     //devuelvo el array
-    return rutinas;
+    return rutina;
   }
 }
 

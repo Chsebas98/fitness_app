@@ -20,10 +20,14 @@ dependencies:
   fl_chart: ^0.55.2
 
   #video
-  video_player: ^2.4.10
+  video_player: ^2.5.2
 
   #font awesome
   font_awesome_flutter: ^10.3.0
+
+  #flutter
+  
+
   
 dev_dependencies:
   flutter_test:

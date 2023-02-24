@@ -189,7 +189,7 @@
     },
     {
       "name": "video_player",
-      "rootUri": "file:///C:/Flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.4.10",
+      "rootUri": "file:///C:/Flutter/.pub-cache/hosted/pub.dartlang.org/video_player-2.5.2",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
@@ -224,7 +224,7 @@
       "languageVersion": "2.18"
     }
   ],
-  "generated": "2023-02-18T17:09:00.312789Z",
+  "generated": "2023-02-24T13:38:38.139815Z",
   "generator": "pub",
   "generatorVersion": "2.18.2"
 }

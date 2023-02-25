@@ -18,8 +18,7 @@ class _VideoPlayerScreenState extends State<RutinaIndScreen> {
     // Crear y almacenar el VideoPlayerController. El VideoPlayerController
     // ofrece distintos constructores diferentes para reproducir videos desde assets, archivos,
     // o internet.
-    _controller = VideoPlayerController.network(
-        'https://flutter.github.io/assets-for-api-docs/assets/videos/bee.mp4');
+    _controller = VideoPlayerController.asset('assets/videos/messi.mp4');
 
     // Inicializa el controlador y almacena el Future para utilizarlo luego
     _initializeVideoPlayerFuture = _controller.initialize();

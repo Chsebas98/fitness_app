@@ -18,7 +18,7 @@ class _VideoPlayerScreenState extends State<RutinaIndScreen> {
     // Crear y almacenar el VideoPlayerController. El VideoPlayerController
     // ofrece distintos constructores diferentes para reproducir videos desde assets, archivos,
     // o internet.
-    _controller = VideoPlayerController.asset('assets/videos/messi.mp4');
+    _controller = VideoPlayerController.asset("assets/messi.mp4");
 
     // Inicializa el controlador y almacena el Future para utilizarlo luego
     _initializeVideoPlayerFuture = _controller.initialize();
@@ -41,7 +41,7 @@ class _VideoPlayerScreenState extends State<RutinaIndScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Butterfly Video'),
+        title: const Text('¿Cómo?'),
       ),
       // Usa un FutureBuilder para visualizar un spinner de carga mientras espera a que
       // la inicialización de VideoPlayerController finalice.

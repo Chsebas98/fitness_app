@@ -8,6 +8,14 @@ class _RutinasProvider {
   List<dynamic> rutinas = [];
   List<dynamic> rutina = [];
 
+  Future<List<dynamic>> cargarRutinas() async {
+    final resp = await rootBundle.loadString("data/rutinas.json");
+    Map<String, dynamic> rutinasMap = json.decode(resp);
+    rutinas = rutinasMap['Cardio'];
+    //print(rutinas);
+    return rutinas;
+  }
+
   //?cargar la lista desde el json de rutina individual
   Future<List<dynamic>> cargarRutina(String nombreRutina) async {
     //cargo el JSON
@@ -16,7 +24,8 @@ class _RutinasProvider {
     Map<String, dynamic> rutinaMap = jsonDecode(resp);
     // Añado al array según el nombre de cada Rutina
     rutina = rutinaMap[nombreRutina];
-
+    //print("$nombreRutina");
+    //print(rutina);
     //devuelvo el array
     return rutina;
   }

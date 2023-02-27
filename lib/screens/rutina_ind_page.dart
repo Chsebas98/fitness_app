@@ -18,13 +18,13 @@ class _VideoPlayerScreenState extends State<RutinaIndScreen> {
     // Crear y almacenar el VideoPlayerController. El VideoPlayerController
     // ofrece distintos constructores diferentes para reproducir videos desde assets, archivos,
     // o internet.
-    _controller = VideoPlayerController.asset("assets/messi.mp4");
+    _controller = VideoPlayerController.asset("assets/videos/messi.mp4");
 
     // Inicializa el controlador y almacena el Future para utilizarlo luego
     _initializeVideoPlayerFuture = _controller.initialize();
 
     // Usa el controlador para hacer un bucle en el vídeo
-    _controller.setLooping(false);
+    _controller.setLooping(true);
 
     super.initState();
   }

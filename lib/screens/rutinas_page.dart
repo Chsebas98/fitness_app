@@ -1,3 +1,6 @@
+import 'package:fitness_app/model/carga_rutinas.dart';
+import 'package:fitness_app/providers/rutinasProvider.dart';
+
 import '../widget/widget.dart';
 
 class RutinasScreen extends StatelessWidget {
@@ -8,25 +11,36 @@ class RutinasScreen extends StatelessWidget {
     /* Desde Exercise_SET */
     Map<String, dynamic> arguments =
         ModalRoute.of(context)!.settings.arguments as Map<String, dynamic>;
+    /* Obtener el nombre y ponerlo todo en minúsculas */
+    final nombreRut = arguments['name'].toLowerCase();
     /* Obtener datos del JSON */
+
     return Scaffold(
       body: CustomScrollView(
         slivers: <Widget>[
           appBarRutinas("Rutinas de ${arguments['name']}"),
           SliverList(
-            delegate: SliverChildBuilderDelegate(
-              (BuildContext context, int index) {
-                //final rutina = obtenerRutinaDesdeAlgunLugar(); // Aquí debes obtener la información de la rutina desde algún lugar, como una base de datos
-                /* return RutinaCard(
+              delegate: SliverChildListDelegate([
+            //final rutina = obtenerRutinaDesdeAlgunLugar(); // Aquí debes obtener la información de la rutina desde algún lugar, como una base de datos
+            /* return RutinaCard(
                   nombre: rutina.nombre,
                   descripcion: rutina.descripcion,
                 ); */
-                return rutinasListado(context);
-              },
-              childCount:
-                  1, // Aquí debes obtener la cantidad de rutinas desde algún lugar, como una base de datos
-            ),
-          ),
+            FutureBuilder(
+                future: rutinasProvider.cargarRutina(nombreRut),
+                initialData: const [],
+                builder: (BuildContext context,
+                    AsyncSnapshot<List<dynamic>> snapshot) {
+                  return Column(
+                    children: snapshot.hasData
+                        ? rutinasCargaListado(context, snapshot.data!)
+                        : [
+                            const SizedBox(height: 20),
+                            Image.asset("assets/404.png")
+                          ],
+                  );
+                })
+          ])),
         ],
       ),
     );

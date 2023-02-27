@@ -1,42 +1,42 @@
 {
-	"Cardio": [
+	"cardio": [
 		{
 			"titulo": "Sprints",
-			"foto": "https://ejemplo.com/foto-sprints.jpg",
-			"descripcion": "Corre a máxima velocidad durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.mensjournal.com/wp-content/uploads/mf/back_muscle_main.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+			"descripcion": "Corre a máxima velocidad durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Alta",
 			"preparacion": "No se requiere ningún equipamiento especial, solo un par de zapatillas cómodas y una toalla."
 		},
 		{
 			"titulo": "Saltos de tijera",
-			"foto": "https://ejemplo.com/foto-saltos-tijera.jpg",
-			"descripcion": "Realiza saltos de tijera durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.mensjournal.com/wp-content/uploads/mf/back_muscle_main.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+			"descripcion": "Realiza saltos de tijera durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Media",
 			"preparacion": "No se requiere ningún equipamiento especial."
 		},
 		{
 			"titulo": "Burpees",
-			"foto": "https://ejemplo.com/foto-burpees.jpg",
-			"descripcion": "Realiza burpees durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.mensjournal.com/wp-content/uploads/mf/back_muscle_main.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+			"descripcion": "Realiza burpees durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Alta",
 			"preparacion": "No se requiere ningún equipamiento especial."
 		},
 		{
 			"titulo": "Remo en el aire",
-			"foto": "https://ejemplo.com/foto-remo-aire.jpg",
-			"descripcion": "Realiza remo en el aire durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.mensjournal.com/wp-content/uploads/mf/back_muscle_main.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+			"descripcion": "Realiza remo en el aire durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Baja",
 			"preparacion": "No se requiere ningún equipamiento especial."
 		},
 		{
 			"titulo": "Mountain Climbers",
-			"foto": "https://ejemplo.com/foto-mountain-climbers.jpg",
-			"descripcion": "Realiza mountain climbers durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.mensjournal.com/wp-content/uploads/mf/back_muscle_main.jpg?w=900&h=506&crop=1&quality=86&strip=all",
+			"descripcion": "Realiza mountain climbers durante 30 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Media",
 			"preparacion": "No se requiere ningún equipamiento especial."
 		}
@@ -44,169 +44,69 @@
 	"yoga": [
 		{
 			"titulo": "Postura de la Montaña",
-			"foto": "https://ejemplo.com/foto-postura-montana.jpg",
-			"descripcion": "Mantén la postura de la montaña durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/yoga.jpg",
+			"descripcion": "Mantén la postura de la montaña durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Baja",
 			"preparacion": "No se requiere ningún equipamiento especial, solo una esterilla o toalla."
 		},
 		{
 			"titulo": "Postura del Guerrero I",
-			"foto": "https://ejemplo.com/foto-postura-guerrero-1.jpg",
-			"descripcion": "Mantén la postura del guerrero I durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/yoga.jpg",
+			"descripcion": "Mantén la postura del guerrero I durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Media",
 			"preparacion": "No se requiere ningún equipamiento especial, solo una esterilla o toalla."
 		},
 		{
 			"titulo": "Postura del Guerrero II",
-			"foto": "https://ejemplo.com/foto-postura-guerrero-2.jpg",
-			"descripcion": "Mantén la postura del guerrero II durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/yoga.jpg",
+			"descripcion": "Mantén la postura del guerrero II durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Alta",
 			"preparacion": "No se requiere ningún equipamiento especial, solo una esterilla o toalla."
 		},
 		{
 			"titulo": "Postura del Perro Boca Abajo",
-			"foto": "https://ejemplo.com/foto-postura-perro-boca-abajo.jpg",
-			"descripcion": "Mantén la postura del perro boca abajo durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/yoga.jpg",
+			"descripcion": "Mantén la postura del perro boca abajo durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Baja",
 			"preparacion": "No se requiere ningún equipamiento especial, solo una esterilla o toalla."
 		},
 		{
 			"titulo": "Postura del Árbol",
-			"foto": "https://ejemplo.com/foto-postura-arbol.jpg",
-			"descripcion": "Mantén la postura del árbol durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 veces.",
-			"duracion": 5,
+			"foto": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/temas/yoga.jpg",
+			"descripcion": "Mantén la postura del árbol durante 60 segundos y descansa durante 30 segundos. Repite este ejercicio 5 min veces.",
+			"duracion": "5 min",
 			"dificultad": "Media",
 			"preparacion": "No se requiere ningún equipamiento especial, solo una esterilla o toalla."
 		}
 	],
-	"torso": [
-		{
-			"titulo": "Flexiones",
-			"foto": "https://ejemplo.com/foto-flexiones.jpg",
-			"descripcion": "Realiza 3 series de 10 flexiones.",
-			"duracion": 3,
-			"dificultad": "Media",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Remo con mancuernas",
-			"foto": "https://ejemplo.com/foto-remo-mancuernas.jpg",
-			"descripcion": "Realiza 3 series de 12 repeticiones con mancuernas de 5 kg.",
-			"duracion": 3,
-			"dificultad": "Media",
-			"preparacion": "Necesitas mancuernas de 5 kg."
-		},
-		{
-			"titulo": "Planche push ups",
-			"foto": "https://ejemplo.com/foto-planche-push-ups.jpg",
-			"descripcion": "Realiza 3 series de 5 planche push ups.",
-			"duracion": 3,
-			"dificultad": "Difícil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Dominadas",
-			"foto": "https://ejemplo.com/foto-dominadas.jpg",
-			"descripcion": "Realiza 3 series de 8 dominadas.",
-			"duracion": 3,
-			"dificultad": "Difícil",
-			"preparacion": "Necesitas una barra de dominadas."
-		},
-		{
-			"titulo": "Abdominales en bicicleta",
-			"foto": "https://ejemplo.com/foto-abdominales-bicicleta.jpg",
-			"descripcion": "Realiza 3 series de 30 abdominales en bicicleta.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		}
-	],
 	"abdominales": [
 		{
-			"titulo": "Abdominales tradicionales",
-			"foto": "https://ejemplo.com/foto-abdominales-tradicionales.jpg",
-			"descripcion": "Realiza 3 series de 20 abdominales tradicionales.",
-			"duracion": 3,
+			"titulo": "Crunch básico",
+			"foto": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-841195990-1555344319.jpg?crop=0.438xw:0.657xh;0.187xw,0.294xh&resize=1200:*",
+			"descripcion": "Acuéstate boca arriba, flexiona las rodillas y pon las manos detrás de la cabeza. Eleva el tronco hacia las rodillas contrayendo los abdominales y baja lentamente. Repite el ejercicio durante 3 minutos.",
+			"duracion": "3 min",
 			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
+			"preparacion": "Necesitarás una colchoneta o una toalla para acostarte."
 		},
 		{
-			"titulo": "Plank",
-			"foto": "https://ejemplo.com/foto-plank.jpg",
-			"descripcion": "Mantente en posición de plank durante 30 segundos.",
-			"duracion": 0.5,
+			"titulo": "Abdominales bicicleta",
+			"foto": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-841195990-1555344319.jpg?crop=0.438xw:0.657xh;0.187xw,0.294xh&resize=1200:*",
+			"descripcion": "Acuéstate boca arriba, eleva las piernas y lleva las manos detrás de la cabeza. Lleva el codo derecho hacia la rodilla izquierda y la rodilla derecha hacia el codo izquierdo. Repite el ejercicio alternando los codos y rodillas durante 3 minutos.",
+			"duracion": "3 min",
 			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
+			"preparacion": "Necesitarás una colchoneta o una toalla para acostarte."
 		},
 		{
-			"titulo": "Elevaciones de piernas",
-			"foto": "https://ejemplo.com/foto-elevaciones-piernas.jpg",
-			"descripcion": "Realiza 3 series de 20 elevaciones de piernas.",
-			"duracion": 3,
+			"titulo": "Plancha",
+			"foto": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-841195990-1555344319.jpg?crop=0.438xw:0.657xh;0.187xw,0.294xh&resize=1200:*",
+			"descripcion": "Apóyate en los antebrazos y las puntas de los pies manteniendo el cuerpo recto. Aguanta la posición durante 3 minutos contrayendo los abdominales.",
+			"duracion": "3 min",
 			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Crunches",
-			"foto": "https://ejemplo.com/foto-crunches.jpg",
-			"descripcion": "Realiza 3 series de 20 crunches.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Flexiones laterales",
-			"foto": "https://ejemplo.com/foto-flexiones-laterales.jpg",
-			"descripcion": "Realiza 3 series de 20 flexiones laterales.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		}
-	],
-	"Parte Superior": [
-		{
-			"titulo": "Press de hombros con mancuernas",
-			"foto": "https://ejemplo.com/foto-press-hombros-mancuernas.jpg",
-			"descripcion": "Realiza 3 series de 10 repeticiones con mancuernas de 3 kilos.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Flexiones de tríceps con mancuernas",
-			"foto": "https://ejemplo.com/foto-flexiones-tricpes-mancuernas.jpg",
-			"descripcion": "Realiza 3 series de 10 repeticiones con mancuernas de 2 kilos.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Remo con barra",
-			"foto": "https://ejemplo.com/foto-remo-barra.jpg",
-			"descripcion": "Realiza 3 series de 10 repeticiones con una barra de 5 kilos.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Elevaciones laterales de hombro con mancuernas",
-			"foto": "https://ejemplo.com/foto-elevaciones-laterales-hombro-mancuernas.jpg",
-			"descripcion": "Realiza 3 series de 10 repeticiones con mancuernas de 2 kilos.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
-		},
-		{
-			"titulo": "Aislamientos de bíceps con mancuernas",
-			"foto": "https://ejemplo.com/foto-aislamientos-biceps-mancuernas.jpg",
-			"descripcion": "Realiza 3 series de 10 repeticiones con mancuernas de 2 kilos.",
-			"duracion": 3,
-			"dificultad": "Fácil",
-			"preparacion": "Ninguna"
+			"preparacion": "Necesitarás una colchoneta o una toalla para apoyarte."
 		}
 	]
 }
